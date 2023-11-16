@@ -28,3 +28,7 @@ predictor = huggingface_model.deploy(
 	initial_instance_count=1, # number of instances
 	instance_type='ml.m5.xlarge' # ec2 instance type
 )
+
+predictor.predict({
+	"inputs": "a chill song that is spacey and uses elements of boom bap hiphop.",
+})
