@@ -1,3 +1,2 @@
-HuggingFaceModel
-sagemaker
 boto3
+sagemaker
